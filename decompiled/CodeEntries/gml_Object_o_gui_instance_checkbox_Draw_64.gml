@@ -1,0 +1,13 @@
+event_inherited();
+set_default_font(f_gui_small);
+draw_set_color(c_white);
+draw_rectangle(box_x1, box_y1, box_x2, box_y2, false);
+var input_draw = checked ? "X" : "";
+var checked_x = box_x1 + iif(global.is_mobile, 18, 7);
+var checked_y = box_y1 + iif(global.is_mobile, 4, 2);
+draw_set_color(c_black);
+draw_text(checked_x, checked_y, string(input_draw));
+var label_x = box_x2 + iif(global.is_mobile, 20, 10);
+var label_y = box_y1 + iif(global.is_mobile, 4, 2);
+draw_set_color(c_white);
+draw_text(label_x, label_y, string(label));

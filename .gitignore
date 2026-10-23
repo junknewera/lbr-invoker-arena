@@ -1,0 +1,6 @@
+# Recreated locally: setup.sh/.ps1 (tools/, testrun/), test runs (.wine/) and build logs.
+.wine/
+tools/
+testrun/
+*.log
+testrun_shot.png

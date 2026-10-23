@@ -1,0 +1,17 @@
+area_settings = {};
+challenge_data = {};
+challenge_key = "";
+challenge_seed = "";
+current_challenge = undefined;
+daily_reward = {};
+game_settings = undefined;
+guild_settings = {};
+load_game_content = "";
+msg = "";
+player_challenge_data = {};
+player_id = "";
+season_data = undefined;
+season_settings = {};
+season_shop_item_settings = {};
+shop_data = {};
+user_id = 0;

@@ -1,0 +1,10 @@
+gui_mouse_x = device_mouse_x_to_gui(0);
+gui_mouse_y = device_mouse_y_to_gui(0);
+cam_x = camera_get_view_x(camera);
+cam_y = camera_get_view_y(camera);
+cam_width = camera_get_view_width(camera);
+cam_height = camera_get_view_height(camera);
+camera_set_view_pos(camera, cam_x, cam_y);
+camera_set_view_size(camera, cam_width, cam_height);
+mouse_x_previous = device_mouse_x_to_gui(0);
+mouse_y_previous = device_mouse_y_to_gui(0);

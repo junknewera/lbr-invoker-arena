@@ -1,0 +1,11 @@
+alpha = 0;
+alpha_target = 1;
+force_remove = false;
+lifetime = sec(1.2);
+resource = undefined;
+text = "";
+value = 0;
+alarm[0] = lifetime;
+alarm[1] = lifetime * 2;
+init = fx_instance_init;
+destroy = fx_instance_destroy;
